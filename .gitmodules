@@ -1,0 +1,3 @@
+[submodule "Packages/com.edanoue.eh.base"]
+	path = Packages/com.edanoue.eh.base
+	url = https://github.com/edanouenohato/com.edanoue.eh.base.git

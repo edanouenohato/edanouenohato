@@ -1,0 +1,109 @@
+# Edanoue's unity.gitattributes
+# updates: 23-02-15
+
+###### Macros #######
+# https://git-scm.com/docs/gitattributes#_defining_macro_attributes
+[attr]unityyaml merge=unityyamlmerge diff eol=lf -text
+[attr]lfs filter=lfs diff=lfs merge=lfs -text
+
+###### Global ######
+* text=auto
+
+###### Unity ######
+# Scripts
+*.cs diff=csharp text eol=lf
+
+# Shaders
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+
+# Unity yaml
+*.anim unityyaml
+*.asset unityyaml
+*.controller unityyaml
+*.lighting unityyaml
+*.mask unityyaml
+*.mat unityyaml
+*.meta unityyaml
+*.mixer unityyaml
+*.physicMaterial unityyaml
+*.physicsMaterial2D unityyaml
+*.playable unityyaml
+*.prefab unityyaml
+*.unity unityyaml
+*.vfx unityyaml
+
+# unity binary formats
+*.cubemap lfs
+*.unitypackage lfs
+
+
+###### Assets ######
+
+# Image Formats
+*.[Jj][Pp][Gg] lfs
+*.[Jj][Pp][Ee][Gg] lfs
+*.[Pp][Nn][Gg] lfs
+*.[Gg][Ii][Ff] lfs
+*.[Ee][Xx][Rr] lfs
+*.[Tt][Gg][Aa] lfs
+*.[Bb][Mm][Pp] lfs
+*.[Hh][Dd][Rr] lfs
+*.[Ss][Vv][Gg] lfs
+*.[Tt][Ii][Ff] lfs
+*.[Tt][Ii][Ff][Ff] lfs
+*.[Pp][Ss][Dd] lfs
+
+# Audio Formats
+*.[Mm][Pp]3 lfs
+*.[Ww][Aa][Vv] lfs
+*.[Oo][Gg][Gg] lfs
+
+# Video Formats
+*.[Mm][Pp]4 lfs
+*.[Mm][Oo][Vv] lfs
+*.[Ww][Ee][Bb][Mm] lfs
+
+# 3D Formats
+*.[Ff][Bb][Xx] lfs
+*.[Oo][Bb][Jj] lfs
+*.[Aa][Bb][Cc] lfs
+
+# Speedtree formats
+*.[Ss][Tt] lfs
+
+# Executable Formats
+*.a lfs
+*.exe lfs
+*.so lfs
+*.dll lfs
+*.pdb lfs
+*.mdb lfs
+
+# AssetBundle Formats
+*.bundle lfs
+
+# Fonts
+## Native font formats
+*.otf lfs
+*.ttf lfs
+
+## for TMPro font assets
+**/[fF]onts/**/*.asset lfs
+**/[fF]ont/**/*.asset lfs
+**/LiberationSans*.asset lfs
+
+# for Lightmapping assets
+## LightingData.asset は Realtime GI を有効化したりすると巨大化するため
+LightingData.asset lfs
+
+# for Occulusion Culling
+OcclusionCullingData.asset lfs
+
+# ETC
+*.pdf lfs
+*.zip lfs
+*.aif lfs
+*.rns lfs
+*.reason lfs

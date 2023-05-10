@@ -140,6 +140,9 @@ LightingData.asset*
 Lightmap-*.exr*
 OcclusionCullingData.asset*
 ReflectionProbe-*.exr*
+ProbeVolumeData.asset*
+ProbeVolumeData.*.bytes*
+ProbeVolumeData-*.bytes*
 
 # Builds
 *.apk

@@ -94,13 +94,6 @@
 **/[fF]ont/**/*.asset lfs
 **/LiberationSans*.asset lfs
 
-# for Lightmapping assets
-## LightingData.asset は Realtime GI を有効化したりすると巨大化するため
-LightingData.asset lfs
-
-# for Occulusion Culling
-OcclusionCullingData.asset lfs
-
 # ETC
 *.pdf lfs
 *.zip lfs

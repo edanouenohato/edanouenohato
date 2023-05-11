@@ -4,5 +4,6 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Packages/com.edanoue.component-system" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Packages/com.edanoue.eh.base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Packages/com.edanoue.vr.device.core" vcs="Git" />
   </component>
 </project>

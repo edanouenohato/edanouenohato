@@ -4,3 +4,6 @@
 [submodule "Packages/com.edanoue.component-system"]
 	path = Packages/com.edanoue.component-system
 	url = https://github.com/edanoue/com.edanoue.component-system.git
+[submodule "Packages/com.edanoue.vr.device.core"]
+	path = Packages/com.edanoue.vr.device.core
+	url = https://github.com/edanoue/com.edanoue.vr.device.core.git

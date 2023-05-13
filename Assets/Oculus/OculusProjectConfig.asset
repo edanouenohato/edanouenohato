@@ -35,5 +35,5 @@ MonoBehaviour:
   insightPassthroughEnabled: 0
   _insightPassthroughSupport: 0
   systemSplashScreen: {fileID: 0}
-  ovrPluginMd5Win64: de4b7c06f9ab74f6652e2e12acc1b891
-  ovrPluginMd5Android: 9c98c649eb2c897406cdca54c3e32ee4
+  ovrPluginMd5Win64: 1adde1a6f3868fc9fbcac53d56d00285
+  ovrPluginMd5Android: 93165737aa619803a2d22cbe95e509a7

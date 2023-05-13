@@ -255,3 +255,8 @@ fabric.properties
 # Sentry for Unity
 # ====================
 /[Aa]ssets/Plugins/Sentry*
+
+
+# Developments
+/[Aa]ssets/Developments/
+/[Aa]ssets/Developments.meta

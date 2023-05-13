@@ -6,6 +6,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.edanoue.eh.base": {
+      "version": "file:com.edanoue.eh.base",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.edanoue.vr.device.core": {
       "version": "file:com.edanoue.vr.device.core",
       "depth": 0,

@@ -11,23 +11,23 @@ TagManager:
   - 
   - Water
   - UI
+  - StaticCommon
+  - StaticForEntity
+  - StaticForProp
+  - 
+  - PropCommon
   - 
   - 
   - 
   - 
   - 
+  - EntityPlayer
   - 
   - 
+  - EntityMob
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - TriggerInteractable
   - 
   - 
   - 

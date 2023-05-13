@@ -28,7 +28,7 @@
       }
     },
     "com.meta.xr.sdk.utilities": {
-      "version": "51.0.0-preview",
+      "version": "53.0.0-preview",
       "depth": 0,
       "source": "registry",
       "dependencies": {},
@@ -182,7 +182,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.oculus": {
-      "version": "3.3.0",
+      "version": "4.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {

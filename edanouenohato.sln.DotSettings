@@ -65,5 +65,6 @@
   &amp;lt;/Language&amp;gt;&#xD;
 &amp;lt;/profile&amp;gt;&lt;/RIDER_SETTINGS&gt;&lt;CSharpFormatDocComments&gt;True&lt;/CSharpFormatDocComments&gt;&lt;CSReformatInactiveBranches&gt;True&lt;/CSReformatInactiveBranches&gt;&lt;XAMLCollapseEmptyTags&gt;False&lt;/XAMLCollapseEmptyTags&gt;&lt;/Profile&gt;</s:String>
     <s:String x:Key="/Default/CodeStyle/FileHeader/FileHeaderText/@EntryValue">Copyright Edanoue, Inc. All Rights Reserved.</s:String>
+	<s:String x:Key="/Default/CodeStyle/Naming/CSharpNaming/UserRules/=5f0fdb63_002Dc892_002D4d2c_002D9324_002D15c80b22a7ef/@EntryIndexedValue">&lt;Policy&gt;&lt;Descriptor Staticness="Instance" AccessRightKinds="Any" Description="Unity serialized field"&gt;&lt;ElementKinds&gt;&lt;Kind Name="UNITY_SERIALISED_FIELD" /&gt;&lt;/ElementKinds&gt;&lt;/Descriptor&gt;&lt;Policy Inspect="True" Prefix="m_" Suffix="" Style="aaBb" /&gt;&lt;/Policy&gt;</s:String>
 	<s:Boolean x:Key="/Default/UserDictionary/Words/=Edanoue/@EntryIndexedValue">True</s:Boolean>
     <s:Boolean x:Key="/Default/UserDictionary/Words/=Grabbable/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>

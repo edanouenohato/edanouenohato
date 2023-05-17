@@ -18,6 +18,12 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.edanoue.hybrid-graph": {
+      "version": "file:com.edanoue.hybrid-graph",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.edanoue.vr.device.core": {
       "version": "file:com.edanoue.vr.device.core",
       "depth": 0,

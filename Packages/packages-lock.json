@@ -6,8 +6,20 @@
       "source": "embedded",
       "dependencies": {}
     },
+    "com.edanoue.developments": {
+      "version": "file:com.edanoue.developments",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.edanoue.eh.base": {
       "version": "file:com.edanoue.eh.base",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
+    "com.edanoue.hybrid-graph": {
+      "version": "file:com.edanoue.hybrid-graph",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}

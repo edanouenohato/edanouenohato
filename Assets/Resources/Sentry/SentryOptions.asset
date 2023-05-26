@@ -16,9 +16,6 @@ MonoBehaviour:
   <Dsn>k__BackingField: https://7bbc8c0c62be412ca04c0de4d783aa24@o309277.ingest.sentry.io/4505163452383232
   <CaptureInEditor>k__BackingField: 0
   <EnableLogDebouncing>k__BackingField: 0
-  <DebounceTimeLog>k__BackingField: 1000
-  <DebounceTimeWarning>k__BackingField: 1000
-  <DebounceTimeError>k__BackingField: 1000
   <TracesSampleRate>k__BackingField: 0.5
   <AutoStartupTraces>k__BackingField: 1
   <AutoSceneLoadTraces>k__BackingField: 1
@@ -28,8 +25,8 @@ MonoBehaviour:
   <ReleaseOverride>k__BackingField: 
   <EnvironmentOverride>k__BackingField: 
   <AttachStacktrace>k__BackingField: 0
-  <AttachScreenshot>k__BackingField: 0
-  <ScreenshotQuality>k__BackingField: 1
+  <AttachScreenshot>k__BackingField: 1
+  <ScreenshotQuality>k__BackingField: 2
   <ScreenshotCompression>k__BackingField: 75
   <AttachViewHierarchy>k__BackingField: 0
   <MaxViewHierarchyRootObjects>k__BackingField: 100
@@ -52,9 +49,6 @@ MonoBehaviour:
   <MaxQueueItems>k__BackingField: 30
   <AnrDetectionEnabled>k__BackingField: 1
   <AnrTimeout>k__BackingField: 5000
-  <FilterBadGatewayExceptions>k__BackingField: 1
-  <FilterWebExceptions>k__BackingField: 1
-  <FilterSocketExceptions>k__BackingField: 1
   <IosNativeSupportEnabled>k__BackingField: 0
   <AndroidNativeSupportEnabled>k__BackingField: 1
   <WindowsNativeSupportEnabled>k__BackingField: 0

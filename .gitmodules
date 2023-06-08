@@ -1,9 +1,6 @@
 [submodule "Packages/com.edanoue.eh.base"]
 	path = Packages/com.edanoue.eh.base
 	url = https://github.com/edanouenohato/com.edanoue.eh.base.git
-[submodule "Packages/com.edanoue.vr.device.quest"]
-	path = Packages/com.edanoue.vr.device.quest
-	url = https://github.com/edanoue/com.edanoue.vr.device.quest.git
 [submodule "Packages/com.edanoue.developments"]
 	path = Packages/com.edanoue.developments
 	url = https://github.com/edanoue/com.edanoue.developments.git

@@ -1,10 +1,11 @@
 {
   "dependencies": {
     "com.edanoue.component-system": {
-      "version": "file:com.edanoue.component-system",
+      "version": "https://github.com/edanoue/com.edanoue.component-system.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "b872597180387a19def6e13958a452a98112c733"
     },
     "com.edanoue.developments": {
       "version": "file:com.edanoue.developments",
@@ -24,11 +25,21 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "com.edanoue.vr.device.core": {
-      "version": "file:com.edanoue.vr.device.core",
+    "com.edanoue.scene-test": {
+      "version": "https://github.com/edanoue/com.edanoue.scene-test.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {
+        "com.unity.test-framework": "1.1.30"
+      },
+      "hash": "645e6e2b52ce85b8ebeb2d70dc5b77842ef3aec0"
+    },
+    "com.edanoue.vr.device.core": {
+      "version": "https://github.com/edanoue/com.edanoue.vr.device.core.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "46475b8aeb803b517e5556034a02ed13298d0c65"
     },
     "com.edanoue.vr.device.quest": {
       "version": "file:com.edanoue.vr.device.quest",

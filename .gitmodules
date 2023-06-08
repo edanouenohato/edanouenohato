@@ -1,9 +1,6 @@
 [submodule "Packages/com.edanoue.eh.base"]
 	path = Packages/com.edanoue.eh.base
 	url = https://github.com/edanouenohato/com.edanoue.eh.base.git
-[submodule "Packages/com.edanoue.component-system"]
-	path = Packages/com.edanoue.component-system
-	url = https://github.com/edanoue/com.edanoue.component-system.git
 [submodule "Packages/com.edanoue.developments"]
 	path = Packages/com.edanoue.developments
 	url = https://github.com/edanoue/com.edanoue.developments.git

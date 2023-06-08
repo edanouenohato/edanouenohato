@@ -45,3 +45,10 @@ Unity Editor の起動後, `File > Build Settings` から `Android` に Switch P
 |-----------------------|----------------------------|
 | EH_RELEASE_BUILD      | 製品版のビルド時に有効な環境変数           |
 | TARGET_PLATFORM_QUEST | Meta Quest 向けのビルド時に有効な環境変数 |
+
+## Third Party Licenses
+### Edanoue.Rx
+UniRX 改変ライブラリ, 一応リリース時に記載しておいたほうが良いかも.
+
+### Oculus 関連
+Meta の公式 SDK である (com.meta.xxx) 関連を使用.

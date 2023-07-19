@@ -77,6 +77,8 @@ MonoBehaviour:
   m_ColorGradingMode: 0
   m_ColorGradingLutSize: 16
   m_UseFastSRGBLinearConversion: 0
+  m_SupportDataDrivenLensFlare: 1
+  m_SupportScreenSpaceLensFlare: 1
   m_ShadowType: 1
   m_LocalShadowsSupported: 0
   m_LocalShadowsAtlasResolution: 256
@@ -91,7 +93,7 @@ MonoBehaviour:
     serializedBounds: []
     serializedHasVolumes: []
     bakingSets: []
-    m_LightingScenario: 
+    m_LightingScenario: Default
   m_PrefilteringModeMainLightShadows: 1
   m_PrefilteringModeAdditionalLight: 4
   m_PrefilteringModeAdditionalLightShadows: 1

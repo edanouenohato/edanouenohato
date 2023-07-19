@@ -10,7 +10,7 @@
     "com.unity.test-framework": "2.0.1-exp.2",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.visualeffectgraph": "15.0.6",
-    "com.unity.xr.management": "4.3.3",
+    "com.unity.xr.management": "4.4.0",
     "io.sentry.unity": "https://github.com/getsentry/unity.git#1.2.0",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",

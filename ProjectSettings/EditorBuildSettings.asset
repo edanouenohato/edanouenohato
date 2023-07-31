@@ -4,7 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/PlayGround (v0.2).unity
+    guid: 4250976eb2a5a7a4fab05425f1a526fa
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber01 \u5171\u540C\u958B\u767A\u78BA\u8A8D\u7528.unity"
+    guid: 74be036fb6b3382459f8fa2d15d8a921
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 91bafd493aab37b4ea3b1c3cfe89c287,
       type: 2}

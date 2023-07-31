@@ -256,7 +256,9 @@ fabric.properties
 # ====================
 /[Aa]ssets/Plugins/Sentry*
 
-
 # Developments
 /[Aa]ssets/Developments/
 /[Aa]ssets/Developments.meta
+
+# KeyStore database
+/*.keystore

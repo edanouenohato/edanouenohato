@@ -7,15 +7,15 @@
 > **Note**
 > .apk をビルドする人は全員必要な作業です.
 
-> **Note**
-> Unity のバージョンが更新するたびに毎回やる必要があります, `android-32` フォルダは使いまわしていいです.
-
 1. Download SDK from [Google Drive](https://drive.google.com/drive/u/1/folders/1veY9o9A6R2ql1FwOFO0pbo8SLrUwEYwu).
 
 ![](https://i.gyazo.com/aaf7c3f09c0c983580703fef5ee969ed.png)
 
 2. Extracts `android-32.zip` then move
    into `C:\Program Files\Unity\Hub\Editor\<UNITY VERSION>\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms`.
+
+> **Note**
+> Unity のバージョンが更新するたびに毎回やる必要があります, `android-32` フォルダは使いまわしていいです.
 
 ### KeyStore settings (for API signature)
 
@@ -33,14 +33,16 @@
 
 ### Per build settings
 
+> **Note**
 > Meta Quest のリリースチャンネルにアップロードする人は必要な作業です. 単に .apk をビルドしてそのまま配布するだけであれば必要ありません.
 
-![](https://i.gyazo.com/bed4d3b305d31457658b948a5aa0cbc4.png)
+![](https://i.gyazo.com/e6a5f0a549b95005f69db1ce1ccac25a.png)
 
-1. Open `Edit > Project Settings... > Player' and update version.
+1. Open `Edit > Project Settings... > Player > Android Tab > Other Settings > Bundle Version Code` and set incremented version code.
 
 > **Note**
-> 事前に前の誰かが上げているバージョン名を確認しておいて, 必ず重複しないように設定します.
+> ![](https://i.gyazo.com/f83afe0e41802db97982af3bc876deb3.png)  
+> [Meta Quest for Developers](https://developer.oculus.com/manage/applications/9709965022407423/) の下にある "最近アップロードされたビルド" にある "コード: XX" を確認して, +1 した数字を設定してください(上記の画像であれば, "7" を入力してビルド).
 
 ![](https://i.gyazo.com/c79fc22f174d5119c9a3320e00f1e1a8.png)
 
@@ -50,9 +52,11 @@
 ### Build .apk
 
 - 普通に Android ビルドを作成します
+- .apk のファイル名は適当で大丈夫です.
 
 ### Deploy to Meta release channel
 
+> **Note**
 > Meta Quest のリリースチャンネルにアップロードする人は必要な作業です. 単に .apk をビルドしてそのまま配布するだけであれば必要ありません.
 
 1. `Meta Quest Developer Hub` に `.apk` を **左側に** ドラッグドロップします.

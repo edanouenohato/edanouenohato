@@ -798,6 +798,7 @@ PlayerSettings:
   webGLPowerPreference: 2
   scriptingDefineSymbols:
     Android: TARGET_PLATFORM_QUEST
+    Standalone: TARGET_PLATFORM_WIN64
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

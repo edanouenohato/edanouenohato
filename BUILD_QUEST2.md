@@ -63,7 +63,9 @@
 
 ![](https://i.gyazo.com/75a25b8cf75675939938afc9ebb77161.png)
 
-2. App: `Branch`, Release Channel: `ALPHA` を選択して Next. その後は特に何も入力せずにアップロード
-3. しばらく待って問題があればエラーが報告される, なければ OK
+2. App: `Branch`, Release Channel: `ALPHA` を選択して Next をクリック
+3. 次のページで, 一番下にリリースノートを書く欄があるので, 簡単な内容を記載, Next をクリック
+4. さらに次のページでは特に何もせずに, Upload をクリック
+5. しばらく待って問題があればエラーが報告される, なければ OK
 
 

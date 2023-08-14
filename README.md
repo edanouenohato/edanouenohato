@@ -20,7 +20,8 @@ Issues: [🚀 EH Beta - EH Issues](https://scrapbox.io/eh-issues/%F0%9F%9A%80_EH
 git clone --recursive https://github.com/edanouenohato/edanouenohato.git
 ```
 
-[Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) でパッケージを管理しているので, `--recursive` オプションを付けて clone
+[Git Submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) でパッケージを管理しているので, `--recursive`
+オプションを付けて clone
 してください.
 
 > **Note**  
@@ -29,15 +30,6 @@ git clone --recursive https://github.com/edanouenohato/edanouenohato.git
 > cd edanouenohato
 > git submodule update --init --recursive
 > ```
-
-### Project Settings
-
-#### Platform を Androidに
-
-![](https://i.gyazo.com/fd703822c40d424345dc69255fb0e76d.png)
-
-Unity Editor の起動後, `File > Build Settings` から `Android` に Switch Platform
-を行ってください.
 
 ## For Developers
 
@@ -54,16 +46,18 @@ Unity Editor の起動後, `File > Build Settings` から `Android` に Switch P
 
 ## Building and publishing
 
-| Targets     |                                    |
-|-------------|------------------------------------|
-| Meta Quest2 | [BUILD_QUEST2.md](BUILD_QUEST2.md) |
+| Targets       |                                    |
+|---------------|------------------------------------|
+| Meta Quest2   | [BUILD_QUEST2.md](BUILD_QUEST2.md) |
+| Pico          | Not Supported                      |
+| Windows (x64) | [BUILD_WIN64.md](BUILD_WIN64.md)   |
 
 ### Environment Values
 
-| Key                   | Description                |
-|-----------------------|----------------------------|
-| EH_RELEASE_BUILD      | 製品版のビルド時に有効な環境変数           |
-| TARGET_PLATFORM_QUEST | Meta Quest 向けのビルド時に有効な環境変数 |
+| Key              | Description                     |
+|------------------|---------------------------------|
+| EH_RELEASE_BUILD | 製品版のビルド時に有効な環境変数                |
+| EH_USE_SDK_QUEST | Meta Quest の SDK を使用する際に有効な環境変数 |
 
 ## Third Party Licenses
 

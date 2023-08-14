@@ -2,6 +2,14 @@
 
 - Quest2 向けのビルドとリリースチャンネルへのアップロードの手順書です
 
+### 対応 Platform
+- ❌ Meta Quest
+- ✔ Meta Quest 2
+
+### Switch Branch
+- Main Branch: `quest2`
+- Base Package Branch: `main`
+
 ### Download Android SDK 32
 
 > **Note**
@@ -51,7 +59,11 @@
 
 ### Build .apk
 
-- 普通に Android ビルドを作成します
+![](https://i.gyazo.com/fd703822c40d424345dc69255fb0e76d.png)
+
+- `File > Build Settings` から `Android` に Switch Platform
+を行ってください.
+- ビルドを作成します
 - .apk のファイル名は適当で大丈夫です.
 
 ### Deploy to Meta release channel

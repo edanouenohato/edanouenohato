@@ -29,6 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber08 \u30A2\u30CA\u30ED\u30B0\u89E3\u653E\u7269\u7406.unity"
     guid: b77c66e2296d83b4c888554f8b553728
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber10 \u7570\u661F\u4EBA\u306E\u30D9\u30EB.unity"
+    guid: fa7ec381859a18949b88414c81420e68
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 91bafd493aab37b4ea3b1c3cfe89c287,
       type: 2}

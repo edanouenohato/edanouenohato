@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber06 \u30A2\u30CA\u30ED\u30B0\u89E3\u6CD5\u30EC\u30FC\u30B6\u30FC.unity"
     guid: 2cd871ac87de17247ae0faea9b1ed804
   - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber07 \u30AB\u30E1\u30E9\u7537.unity"
+    guid: 46ffab52d3adf87478a8c7bf56b1ab95
+  - enabled: 1
     path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber08 \u30A2\u30CA\u30ED\u30B0\u89E3\u653E\u7269\u7406.unity"
     guid: b77c66e2296d83b4c888554f8b553728
   - enabled: 1

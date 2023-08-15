@@ -4,40 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes:
-  - enabled: 1
-    path: Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/PlayGround (v0.2).unity
-    guid: 4250976eb2a5a7a4fab05425f1a526fa
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber01 \u5171\u540C\u958B\u767A\u78BA\u8A8D\u7528.unity"
-    guid: 74be036fb6b3382459f8fa2d15d8a921
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber02 \u76E3\u8996\u30AB\u30E1\u30E9\u306E\u30B8\u30E3\u30F3\u30D7.unity"
-    guid: da2b6843d1894ca459a1973e12db8cff
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber03 \u30EC\u30FC\u30B6\u30FC\u30BB\u30F3\u30B5\u30FC.unity"
-    guid: 8877730018f48dc438e02585d43475bf
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber04 \u30CD\u30B8\u958B\u3051.unity"
-    guid: 7902d6071f826fe48beade7311a0f421
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber05 \u30D0\u30C3\u30C6\u30EA\u30FC\u88C5\u7F6E.unity"
-    guid: 8ef404d428e9b884fa23e9bd79d17720
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber06 \u30A2\u30CA\u30ED\u30B0\u89E3\u6CD5\u30EC\u30FC\u30B6\u30FC.unity"
-    guid: 2cd871ac87de17247ae0faea9b1ed804
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber07 \u30AB\u30E1\u30E9\u7537.unity"
-    guid: 46ffab52d3adf87478a8c7bf56b1ab95
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber08 \u30A2\u30CA\u30ED\u30B0\u89E3\u653E\u7269\u7406.unity"
-    guid: b77c66e2296d83b4c888554f8b553728
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber09 \u7570\u661F\u4EBA\u306E\u30D9\u30EB.unity"
-    guid: fa7ec381859a18949b88414c81420e68
-  - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/PlayGround (v0.2)/Chamber10 \u30DE\u30AF\u30ED\u30EC\u30B3\u30FC\u30C0\u30FC.unity"
-    guid: 833296e3b09f12244bdf144c69501168
+  m_Scenes: []
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 91bafd493aab37b4ea3b1c3cfe89c287,
       type: 2}

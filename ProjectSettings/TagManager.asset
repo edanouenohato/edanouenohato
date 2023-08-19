@@ -12,23 +12,23 @@ TagManager:
   - 
   - Water
   - UI
-  - StaticCommon
-  - StaticForEntity
-  - StaticForProp
-  - 
-  - PropCommon
-  - 
-  - 
+  - PHY_StaticCommon
+  - PHY_StaticForEntity
+  - PHY_StaticForProp
+  - PHY_EntityProp
+  - PHY_EntityPlayer
   - 
   - 
   - 
-  - EntityPlayer
   - 
   - 
-  - EntityMob
+  - VIZ_PlayerOnlyMarker
+  - VIZ_MonitorOnlyMarker
   - 
   - 
-  - TriggerInteractable
+  - 
+  - 
+  - 
   - 
   - 
   - 

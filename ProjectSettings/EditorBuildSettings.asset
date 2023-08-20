@@ -4,7 +4,25 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0300 HongKong Main.unity
+    guid: 2d8e4b28cc5772d499890ef469a3f0b2
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0301 \u30C1\u30E3\u30F3\u30D0\u30FC\u540D\u3092\u5165\u529B.unity"
+    guid: 910e02ee929c4ec42b223e862ba56d23
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0302 \u30C1\u30E3\u30F3\u30D0\u30FC\u540D\u3092\u5165\u529B.unity"
+    guid: 4d8303741e967734ba0703a6a1e1b08b
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0303 \u30C1\u30E3\u30F3\u30D0\u30FC\u540D\u3092\u5165\u529B.unity"
+    guid: e759c4a3d31b0034a8bea72f52b9e5a3
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0304 \u30C1\u30E3\u30F3\u30D0\u30FC\u540D\u3092\u5165\u529B.unity"
+    guid: cb2055447a10812458ad868f47e35faa
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0305 \u30C1\u30E3\u30F3\u30D0\u30FC\u540D\u3092\u5165\u529B.unity"
+    guid: 3c81808c88017dd499bbf3c37c9b7699
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 91bafd493aab37b4ea3b1c3cfe89c287,
       type: 2}

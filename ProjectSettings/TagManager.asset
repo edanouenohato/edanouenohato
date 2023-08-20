@@ -12,10 +12,10 @@ TagManager:
   - 
   - Water
   - UI
-  - PHY_StaticCommon
-  - PHY_StaticForEntity
-  - PHY_StaticForProp
-  - PHY_EntityProp
+  - PHY_FrameCommon
+  - PHY_FrameForEntity
+  - PHY_FrameForProp
+  - PHY_Prop
   - PHY_EntityPlayer
   - 
   - 

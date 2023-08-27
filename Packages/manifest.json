@@ -4,7 +4,7 @@
     "com.edanoue.scene-test": "https://github.com/edanoue/com.edanoue.scene-test.git",
     "com.edanoue.vr.device.core": "https://github.com/edanoue/com.edanoue.vr.device.core.git",
     "com.edanoue.vr.device.quest": "https://github.com/edanoue/com.edanoue.vr.device.quest.git",
-    "com.meta.xr.sdk.utilities": "55.0.0-preview",
+    "com.meta.xr.sdk.utilities": "56.0.0-preview",
     "com.unity.ai.navigation": "1.1.4",
     "com.unity.ide.rider": "3.0.24",
     "com.unity.mobile.android-logcat": "1.3.2",

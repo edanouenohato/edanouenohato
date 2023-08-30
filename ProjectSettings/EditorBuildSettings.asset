@@ -14,6 +14,12 @@ EditorBuildSettings:
   - enabled: 1
     path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0357 \u30D1\u30BD\u30B3\u30F3\u8A66\u4F5C.unity"
     guid: b6a39582d0026e34c882eb9056689630
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0358 \u7A93\u304A\u8A66\u3057.unity"
+    guid: baf46c70d8a0bff4399cae01d8dfb2e6
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0370 \u30E9\u30A4\u30BF\u30FC\u3068\u30BF\u30D0\u30B3\u8A66\u4F5C.unity"
+    guid: 49ae01e306f4daf4fbc2a7d99bdc6584
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 91bafd493aab37b4ea3b1c3cfe89c287,
       type: 2}

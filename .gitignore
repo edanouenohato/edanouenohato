@@ -1,5 +1,5 @@
 # .gitignore for unity projects
-# updates: 23-05-08
+# updates: 23-09-12
 
 # =========
 #    OS
@@ -245,6 +245,8 @@ fabric.properties
 # ====================
 /heu_session.txt
 /heu_settings.ini
+# Ignore all houdini created file, If you release asset, you should move assets to other folder.
+/[Aa]ssets/HoudiniEngineAssetCache*
 
 # ====================
 # RiderFlow

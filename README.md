@@ -44,6 +44,11 @@ git clone --recursive https://github.com/edanouenohato/edanouenohato.git
 [Meta Quest 2](https://www.meta.com/jp/quest/products/quest-2/) を使用してください.
 所有していない方は [@minami110](https://github.com/minami110) まで.
 
+### Setup Houdini Engine for Unity
+
+[HEU & HDA を利用した GrayBoxing - ⚗️EH Proto Gamedesign](https://scrapbox.io/eh-proto-gamedesign/HEU_&_HDA_%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F_GrayBoxing)
+を読んでください.
+
 ## Building and publishing
 
 | Targets       |                                    |

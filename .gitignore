@@ -247,6 +247,13 @@ fabric.properties
 /heu_settings.ini
 # Ignore all houdini created file, If you release asset, you should move assets to other folder.
 /[Aa]ssets/HoudiniEngineAssetCache*
+# Ignore houdini backup project files.
+backup/*_bak*.hip
+backup/*_bak*.hda
+# Ignore unity_houdini.env
+# Note: Project の開始時点で, テンプレート的に用意する場合は一旦コメントアウトしてください
+/[Aa]ssets/unity_houdini.env
+
 
 # ====================
 # RiderFlow

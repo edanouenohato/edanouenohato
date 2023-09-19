@@ -245,17 +245,16 @@ fabric.properties
 # ====================
 /heu_session.txt
 /heu_settings.ini
+
 # Ignore all houdini created file, If you release asset, you should move assets to other folder.
 /[Aa]ssets/HoudiniEngineAssetCache*
 
-# Ignore houdini backup project files.
-backup/*_bak*.hip*
-backup/*_bak*.hiplc*
-backup/*_bak*.hda*
-backup/*_bak*.hdalc*
-
 # Ignore unity_houdini.env
 /[Aa]ssets/unity_houdini.env*
+
+# Ignore houdini backup project files.
+backup/
+backup.meta
 
 
 # ====================

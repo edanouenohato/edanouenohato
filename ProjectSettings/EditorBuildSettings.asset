@@ -9,25 +9,31 @@ EditorBuildSettings:
     path: Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0300 HongKong Main.unity
     guid: 2d8e4b28cc5772d499890ef469a3f0b2
   - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0301 \u8857\u4E2D \u5E3D\u5B50\u3092\u76D7\u3080.unity"
-    guid: 910e02ee929c4ec42b223e862ba56d23
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0301 \u8857\u4E2D.unity"
+    guid: 2edc13514c4131d49b0b9d0ff2b3970f
   - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0302 \u5730\u4E0B\u99D0\u8ECA\u5834.unity"
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0302 \u30D3\u30EB\u30A8\u30F3\u30C8\u30E9\u30F3\u30B9.unity"
+    guid: 011a57531ea061047925333dde02d3c2
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0310 \u5730\u4E0B\u99D0\u8ECA\u5834.unity"
     guid: 05f743c8ae5df604aa936013c24817b8
   - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0306 \u7ACB\u4F53\u99D0\u8ECA\u5834\u5185\u90E8.unity"
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0311 \u7ACB\u4F53\u99D0\u8ECA\u5834\u5185\u90E8.unity"
     guid: d5b81f33320d2914d80c9d8e54ac3aa4
   - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0303 \u30D3\u30EB\u9014\u4E2D\u306E\u968E
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0320 \u7BA1\u7406\u5BA4\u3067\u30A8\u30EC\u30D9\u30FC\u30BF\u30FC\u306E\u30ED\u30C3\u30AF\u3092\u89E3\u9664.unity"
+    guid: 96f68a29146dd0646af1dc0182f5bebe
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0321 \u30D3\u30EB\u9014\u4E2D\u306E\u968E
       \u30BB\u30AD\u30E5\u30EA\u30C6\u30A3\u30EB\u30FC\u30E0\u3067\u5C4B\u4E0A\u306E\u9375\u3092\u5165\u624B.unity"
     guid: 93960f3ac58d9a142a0916cce89af4d0
   - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0304 \u30D3\u30EB\u5C4B\u4E0A
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0322 \u8FFD\u52A0\u30D5\u30ED\u30A2\u3067\u30AB\u30E1\u30E9\u3092SSH\u3057\u3066\u30C9\u30A2\u3092\u958B\u3051\u308B.unity"
+    guid: 0d00a1428bdaaeb40bd1646848157040
+  - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0330 \u30D3\u30EB\u5C4B\u4E0A
       \u96FB\u5B50\u30E2\u30CB\u30BF\u30FC\u3092\u30CF\u30C3\u30AD\u30F3\u30B0.unity"
     guid: cb2055447a10812458ad868f47e35faa
-  - enabled: 1
-    path: Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0399 HongKong BG.unity
-    guid: 1b474277dc2e5744ba068a55cbabdb3f
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 91bafd493aab37b4ea3b1c3cfe89c287,
       type: 2}

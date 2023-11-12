@@ -47,12 +47,12 @@
       "source": "git",
       "dependencies": {
         "com.edanoue.vr.device.core": "0.1.6",
-        "com.meta.xr.sdk.utilities": "55.0.0-preview"
+        "com.meta.xr.sdk.core": "59.0.0"
       },
-      "hash": "9ba2141d204786a05c9331ab3abc79e822f8f274"
+      "hash": "0564c3961f1f57ecde7959f4029b4e2ffe894644"
     },
-    "com.meta.xr.sdk.utilities": {
-      "version": "57.0.0-preview",
+    "com.meta.xr.sdk.core": {
+      "version": "59.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},

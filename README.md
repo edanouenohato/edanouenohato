@@ -7,12 +7,13 @@ Issues: [🚀 EH Beta - EH Issues](https://scrapbox.io/eh-issues/%F0%9F%9A%80_EH
 
 ### Install Unity Editor
 
-`Unity 2023.1` を使用しています, 最新版をインストールしてください.
+`Unity 2023.2` を使用しています, 最新版をインストールしてください.
 
 ![](https://i.gyazo.com/adcd4196aed56184686272682baa4496.png)
 
 `Android Build Support` modules が必要です.  
-`Rider` を使用するため, Visual Studio は必要ありません.
+`Rider` を使用するため, Visual Studio は必要ありません.  
+また, ローカル環境で自分でビルドを作成する場合は現在 `android sdk 32` が必要です (@minami まで)
 
 ### Clone project
 
@@ -44,7 +45,7 @@ git clone --recursive https://github.com/edanouenohato/edanouenohato.git
 [Meta Quest 2](https://www.meta.com/jp/quest/products/quest-2/) を使用してください.
 所有していない方は [@minami110](https://github.com/minami110) まで.
 
-### Setup Houdini Engine for Unity
+### Setup Houdini Engine for Unity (任意)
 
 [HEU & HDA を利用した GrayBoxing - ⚗️EH Proto Gamedesign](https://scrapbox.io/eh-proto-gamedesign/HEU_&_HDA_%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F_GrayBoxing)
 を読んでください.
@@ -68,7 +69,7 @@ git clone --recursive https://github.com/edanouenohato/edanouenohato.git
 
 ### Edanoue.Rx
 
-UniRX 改変ライブラリ, 一応リリース時に記載しておいたほうが良いかも.
+minami: UniRX 改変ライブラリ, 一応リリース時に記載しておいたほうが良いかも. (とはいえだいぶいじったので面影がない)
 
 ### Oculus 関連
 

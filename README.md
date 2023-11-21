@@ -74,3 +74,9 @@ minami: UniRX 改変ライブラリ, 一応リリース時に記載しておい�
 ### Oculus 関連
 
 Meta の公式 SDK である (com.meta.xxx) 関連を使用.
+
+
+## Layer Settings
+- `PHY_XXX`: 物理的な判定に使用する
+- `VIS_XXX`: カメラなど, レンダリング関連で使用する
+- `META_XXX`: ハッキングデバイスのターゲットなど, 特定のトリガーに設定する

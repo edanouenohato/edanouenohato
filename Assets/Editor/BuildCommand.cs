@@ -14,6 +14,14 @@ public static class BuildCommand
     /// </summary>
     public static void PerformBuild()
     {
+        // ToDo: LightBuild
+        // LightBuildHongkong();
+
+        // ToDo: OcclusionCulling Build
+
+        // ToDo: NavMeshBuild
+
+        // Gets args from command line
         var buildTarget = GetBuildTarget();
         var buildPath = GetBuildPath();
         var buildName = GetBuildName();
@@ -21,41 +29,10 @@ public static class BuildCommand
         if (buildTarget == BuildTarget.Android)
         {
             // Bundle version code
-            if (TryGetEnv("ANDROID_BUNDLE_VERSION_CODE", out var value))
-            {
-                if (int.TryParse(value, out var version))
-                {
-                    PlayerSettings.Android.bundleVersionCode = version;
-                    Console.WriteLine(
-                        $":: ANDROID_BUNDLE_VERSION_CODE env var detected, set the bundle version code to {value}.");
-                }
-                else
-                {
-                    Console.WriteLine(
-                        $":: ANDROID_BUNDLE_VERSION_CODE env var detected but the version value \"{value}\" is not an integer.");
-                }
-            }
+            SetupVersionBundleCode();
 
             // Key store password
-            if (TryGetEnv("UNITY_KEYSTORE_PASS", out var keyStorePass))
-            {
-                PlayerSettings.Android.keystorePass = keyStorePass;
-            }
-            else
-            {
-                Console.WriteLine(
-                    ":: UNITY_KEYSTORE_PASS env var not set, skipping setup, using Unity's default keystore");
-            }
-
-            if (TryGetEnv("UNITY_KEYALIAS_PASS", out var keyAliasPass))
-            {
-                PlayerSettings.Android.keyaliasPass = keyAliasPass;
-            }
-            else
-            {
-                Console.WriteLine(
-                    ":: UNITY_KEYALIAS_PASS env var not set, skipping setup, using Unity's default keystore");
-            }
+            SetupKeyStorePassword();
         }
 
         // ToDo: Android (Quest) 向けの適当な設定をやっています
@@ -72,6 +49,60 @@ public static class BuildCommand
         }
 
         Console.WriteLine(":: Done with build");
+    }
+
+    private static void LightBuildHongkong()
+    {
+        var hongkongSets = new[]
+        {
+            "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0300 HongKong Main.unity",
+            "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0302 街中.unity",
+            "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0310 地下駐車場.unity"
+        };
+        Lightmapping.BakeMultipleScenes(hongkongSets);
+    }
+
+    private static void SetupVersionBundleCode()
+    {
+        if (!TryGetEnv("ANDROID_BUNDLE_VERSION_CODE", out var value))
+        {
+            return;
+        }
+
+        if (int.TryParse(value, out var version))
+        {
+            PlayerSettings.Android.bundleVersionCode = version;
+            Console.WriteLine(
+                $":: ANDROID_BUNDLE_VERSION_CODE env var detected, set the bundle version code to {value}.");
+        }
+        else
+        {
+            Console.WriteLine(
+                $":: ANDROID_BUNDLE_VERSION_CODE env var detected but the version value \"{value}\" is not an integer.");
+        }
+    }
+
+    private static void SetupKeyStorePassword()
+    {
+        if (TryGetEnv("UNITY_KEYSTORE_PASS", out var keyStorePass))
+        {
+            PlayerSettings.Android.keystorePass = keyStorePass;
+        }
+        else
+        {
+            Console.WriteLine(
+                ":: UNITY_KEYSTORE_PASS env var not set, skipping setup, using Unity's default keystore");
+        }
+
+        if (TryGetEnv("UNITY_KEYALIAS_PASS", out var keyAliasPass))
+        {
+            PlayerSettings.Android.keyaliasPass = keyAliasPass;
+        }
+        else
+        {
+            Console.WriteLine(
+                ":: UNITY_KEYALIAS_PASS env var not set, skipping setup, using Unity's default keystore");
+        }
     }
 
     private static bool TryGetEnv(string key, out string value)

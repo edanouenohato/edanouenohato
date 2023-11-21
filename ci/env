@@ -1,0 +1,11 @@
+UNITY_EDITOR_ROOT=C:/Program Files/Unity/Hub/Editor/
+APP_NAME=branch-alpha
+APP_VERSION=v0.5.0
+ANDROID_BUNDLE_VERSION_CODE=
+UNITY_KEYSTORE_PASS=
+UNITY_KEYALIAS_PASS=
+OVR_PLATFORM_TOOL=C:/Users/minami/Documents/Unity Projects/edanouenohato/ci/ovr-platform-util.exe
+OVR_APP_ID=
+OVR_APP_SECRET=
+OVR_RELEASE_CHANNEL=alpha
+OVR_RELEASE_NOTE=Auto uploaded by script.

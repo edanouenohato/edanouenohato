@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.cysharp.memorypack": {
+      "version": "https://github.com/Cysharp/MemoryPack.git?path=src/MemoryPack.Unity/Assets/Plugins/MemoryPack#1.10.0",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "2554e81f0315ddf835026940ccc4ba8175edfda3"
+    },
     "com.edanoue.component-system": {
       "version": "https://github.com/edanoue/com.edanoue.component-system.git",
       "depth": 0,

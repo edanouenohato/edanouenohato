@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0300 HongKong Main.unity
     guid: 2d8e4b28cc5772d499890ef469a3f0b2
   - enabled: 1
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0301 \u30DB\u30C6\u30EB\u5468\u8FBA.unity"
+    guid: 9884f04e3f570b34e9ebd8f2c756b176
+  - enabled: 1
     path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0302 \u8857\u4E2D.unity"
     guid: 2edc13514c4131d49b0b9d0ff2b3970f
   - enabled: 1

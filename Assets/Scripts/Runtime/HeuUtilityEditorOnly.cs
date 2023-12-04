@@ -5,7 +5,7 @@ using HoudiniEngineUnity;
 using UnityEngine;
 
 [ExecuteInEditMode]
-internal class HeuUtilityEditorOnly : MonoBehaviour
+internal partial class HeuUtilityEditorOnly : MonoBehaviour
 {
 #if UNITY_EDITOR
 
@@ -19,16 +19,18 @@ internal class HeuUtilityEditorOnly : MonoBehaviour
         gameObject.name = "(Editor Only) Baked Light Generator";
 
         // Remove HEU generated Mesh filter and Mesh Renderer
-        var meshFilter = GetComponent<MeshFilter>();
-        if (meshFilter != null)
         {
-            DestroyImmediate(meshFilter);
-        }
+            var meshFilter = GetComponent<MeshFilter>();
+            if (meshFilter != null)
+            {
+                DestroyImmediate(meshFilter);
+            }
 
-        var meshRenderer = GetComponent<MeshRenderer>();
-        if (meshRenderer != null)
-        {
-            DestroyImmediate(meshRenderer);
+            var meshRenderer = GetComponent<MeshRenderer>();
+            if (meshRenderer != null)
+            {
+                DestroyImmediate(meshRenderer);
+            }
         }
 
         // Generate lights

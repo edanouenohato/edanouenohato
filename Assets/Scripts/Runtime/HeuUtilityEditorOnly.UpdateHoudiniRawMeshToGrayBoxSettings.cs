@@ -2,9 +2,11 @@
 
 #nullable enable
 using System.Collections.Generic;
+using UnityEngine;
+#if UNITY_EDITOR
 using UnityEditor;
 using UnityEditorInternal;
-using UnityEngine;
+#endif
 
 internal partial class HeuUtilityEditorOnly
 {

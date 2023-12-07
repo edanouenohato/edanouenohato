@@ -21,8 +21,8 @@ EditorBuildSettings:
     path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0311 \u7ACB\u4F53\u99D0\u8ECA\u5834\u5185\u90E8\u30EA\u30E1\u30A4\u30AF\u7248.unity"
     guid: a0c5a03c40892e645bf3bae46507c0bf
   - enabled: 1
-    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0320 \u7BA1\u7406\u5BA4\u3067\u30A8\u30EC\u30D9\u30FC\u30BF\u30FC\u306E\u30ED\u30C3\u30AF\u3092\u89E3\u9664.unity"
-    guid: 96f68a29146dd0646af1dc0182f5bebe
+    path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0320 \u30A8\u30EC\u30D9\u30FC\u30BF\u30FC\u7BA1\u7406\u5BA4.unity"
+    guid: b4b0b022fc15bfd4bbdeaaced24b773c
   - enabled: 1
     path: "Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0321 \u30B4\u30F3\u30C9\u30E9\u30B7\u30FC\u30F3.unity"
     guid: 20612e564d54cbc4199712210312046c

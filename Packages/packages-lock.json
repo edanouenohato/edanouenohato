@@ -24,13 +24,22 @@
       "version": "file:com.edanoue.eh.base",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {}
+      "dependencies": {
+        "com.edanoue.rx": "1.0.0"
+      }
     },
     "com.edanoue.hybrid-graph": {
       "version": "file:com.edanoue.hybrid-graph",
       "depth": 0,
       "source": "embedded",
       "dependencies": {}
+    },
+    "com.edanoue.rx": {
+      "version": "https://github.com/edanoue/com.edanoue.rx.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "dd3f600f0c8b4c66eebfaf366f121e494d31262d"
     },
     "com.edanoue.scene-test": {
       "version": "https://github.com/edanoue/com.edanoue.scene-test.git",

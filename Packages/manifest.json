@@ -2,6 +2,7 @@
   "dependencies": {
     "com.cysharp.memorypack": "https://github.com/Cysharp/MemoryPack.git?path=src/MemoryPack.Unity/Assets/Plugins/MemoryPack#1.10.0",
     "com.edanoue.component-system": "https://github.com/edanoue/com.edanoue.component-system.git",
+    "com.edanoue.rx": "https://github.com/edanoue/com.edanoue.rx.git",
     "com.edanoue.scene-test": "https://github.com/edanoue/com.edanoue.scene-test.git",
     "com.edanoue.vr.device.core": "https://github.com/edanoue/com.edanoue.vr.device.core.git",
     "com.sidefx.houdiniengineforunity": "https://github.com/edanoue/com.sidefx.houdiniengineforunity.git",

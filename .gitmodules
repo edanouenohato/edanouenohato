@@ -4,6 +4,3 @@
 [submodule "Packages/com.edanoue.developments"]
 	path = Packages/com.edanoue.developments
 	url = https://github.com/edanoue/com.edanoue.developments.git
-[submodule "Packages/com.edanoue.hybrid-graph"]
-	path = Packages/com.edanoue.hybrid-graph
-	url = https://github.com/edanoue/com.edanoue.hybrid-graph.git

@@ -29,10 +29,11 @@
       }
     },
     "com.edanoue.hybrid-graph": {
-      "version": "file:com.edanoue.hybrid-graph",
+      "version": "https://github.com/edanoue/com.edanoue.hybrid-graph.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "5d1ae2779163dfd1649e15f815c542a18f938c59"
     },
     "com.edanoue.rx": {
       "version": "https://github.com/edanoue/com.edanoue.rx.git",

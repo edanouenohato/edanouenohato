@@ -38,11 +38,27 @@ internal partial class HeuUtilityEditorOnly
         // Generate lights
         var head = 0;
 
-        // Gets light range
+        // Gets light range option
         var range = float.Parse(argsArray[0]);
+
+        // Generate lights
+        DestroyPrevCreatedLights();
         head += CreatePointLights(head, range);
         head += CreateGridLights(head, range);
     }
+
+    /// <summary>
+    /// Cook のたびにこのスクリプトが呼ばれ, ライトが無限に増えるため毎回削除する
+    /// </summary>
+    private void DestroyPrevCreatedLights()
+    {
+        var allRightsComponent = GetComponentsInChildren<Light>();
+        foreach (var child in allRightsComponent)
+        {
+            DestroyImmediate(child.gameObject);
+        }
+    }
+
 
     private int CreatePointLights(int head, float range)
     {
@@ -117,6 +133,8 @@ internal partial class HeuUtilityEditorOnly
 
             // Set range
             lightCom.range = range;
+
+            Debug.Log($"[HeuUtility] Created new {go.name} Light.", go);
         }
 
         return count;
@@ -215,6 +233,8 @@ internal partial class HeuUtilityEditorOnly
 
             // Set range
             lightCom.range = range;
+
+            Debug.Log($"[HeuUtility] Created new {go.name} Light.", go);
         }
 
         // Update head

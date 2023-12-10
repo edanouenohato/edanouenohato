@@ -80,7 +80,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "eb372030c9011cdc7882ae7dac73e7e5219cdf47"
+      "hash": "953b7a4aa630a3815b258ec44bd4e62b11b9994f"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.0",

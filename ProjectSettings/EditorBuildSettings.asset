@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Packages/com.edanoue.eh.base/GrayBox/01 Tutorial/Tutorial v0.5.unity
+    guid: 257e26a5898ced14fa86a3549e9efca2
+  - enabled: 1
     path: Packages/com.edanoue.eh.base/GrayBox/03 Hongkong/0300 HongKong Main.unity
     guid: 2d8e4b28cc5772d499890ef469a3f0b2
   - enabled: 1

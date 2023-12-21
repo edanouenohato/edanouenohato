@@ -69,7 +69,7 @@
       "hash": "0564c3961f1f57ecde7959f4029b4e2ffe894644"
     },
     "com.meta.xr.sdk.core": {
-      "version": "60.0.0",
+      "version": "59.0.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {},

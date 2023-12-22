@@ -80,3 +80,12 @@ Meta の公式 SDK である (com.meta.xxx) 関連を使用.
 - `PHY_XXX`: 物理的な判定に使用する
 - `VIS_XXX`: カメラなど, レンダリング関連で使用する
 - `META_XXX`: ハッキングデバイスのターゲットなど, 特定のトリガーに設定する
+
+
+## Setup Houdini Engine for Unity HDA library (Optional)
+
+- `edanouenohato-otls.json` を `<My Documents>/houdini20.0/packages/` 以下にコピー
+  - packages フォルダがなければ作成
+  - コピー後, .json ファイルをテキストエディタで開き, ファイル下部にある UNITY_PROJECT のパスをこのディレクトリに変更する
+- Houdini を素で起動して HDA にアクセスできれば OK です
+

@@ -4,3 +4,6 @@
 [submodule "Packages/com.edanoue.developments"]
 	path = Packages/com.edanoue.developments
 	url = https://github.com/edanoue/com.edanoue.developments.git
+[submodule "Packages/com.firelight.fmod-for-unity"]
+	path = Packages/com.firelight.fmod-for-unity
+	url = https://github.com/edanouenohato/com.firelight.fmod-for-unity.git

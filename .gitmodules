@@ -7,3 +7,6 @@
 [submodule "Packages/com.firelight.fmod-for-unity"]
 	path = Packages/com.firelight.fmod-for-unity
 	url = https://github.com/edanouenohato/com.firelight.fmod-for-unity.git
+[submodule "Packages/com.edanoue.eh.resource"]
+	path = Packages/com.edanoue.eh.resource
+	url = https://github.com/edanouenohato/com.edanoue.eh.resource.git

@@ -28,6 +28,12 @@
         "com.edanoue.rx": "1.0.0"
       }
     },
+    "com.edanoue.eh.resource": {
+      "version": "file:com.edanoue.eh.resource",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.edanoue.hybrid-graph": {
       "version": "https://github.com/edanoue/com.edanoue.hybrid-graph.git",
       "depth": 0,

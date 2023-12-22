@@ -1,0 +1,15 @@
+{
+  "hpath": [
+    "$UNITY_PROJECT/Packages/com.edanoue.eh.base",
+    "$UNITY_PROJECT/Packages/com.edanoue.eh.base/GrayBox/03 Hongkong",
+    "$UNITY_PROJECT/Packages/com.edanoue.eh.resource"
+  ],
+  "load_package_once": true,
+  "enable": "houdini_version >= '19.5'",
+  "version": "1.0",
+  "env": [
+    {
+      "UNITY_PROJECT": "C:/Users/minami/Documents/Unity Projects/edanouenohato"
+    }
+  ]
+}

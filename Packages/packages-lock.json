@@ -58,13 +58,6 @@
       "dependencies": {},
       "hash": "ca4c2ef3b8ad210f2a9a930f109eef0741e40013"
     },
-    "com.firelight.fmod-for-unity": {
-      "version": "https://github.com/edanoue/com.firelight.fmod-for-unity.git",
-      "depth": 0,
-      "source": "git",
-      "dependencies": {},
-      "hash": "f39c9c595d6eafe544afefd492b7fc5143c61ae5"
-    },
     "com.sidefx.houdiniengineforunity": {
       "version": "https://github.com/edanoue/com.sidefx.houdiniengineforunity.git",
       "depth": 0,

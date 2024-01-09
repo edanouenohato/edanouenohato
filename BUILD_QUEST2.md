@@ -10,20 +10,7 @@
 - Main Branch: `quest2`
 - Base Package Branch: `main`
 
-### Download Android SDK 32
 
-> **Note**
-> .apk をビルドする人は全員必要な作業です.
-
-1. Download SDK from [Google Drive](https://drive.google.com/drive/u/1/folders/1veY9o9A6R2ql1FwOFO0pbo8SLrUwEYwu).
-
-![](https://i.gyazo.com/aaf7c3f09c0c983580703fef5ee969ed.png)
-
-2. Extracts `android-32.zip` then move
-   into `C:\Program Files\Unity\Hub\Editor\<UNITY VERSION>\Editor\Data\PlaybackEngines\AndroidPlayer\SDK\platforms`.
-
-> **Note**
-> Unity のバージョンが更新するたびに毎回やる必要があります, `android-32` フォルダは使いまわしていいです.
 
 ### KeyStore settings (for API signature)
 
@@ -65,6 +52,13 @@
 を行ってください.
 - ビルドを作成します
 - .apk のファイル名は適当で大丈夫です.
+
+![](https://i.gyazo.com/58676029342d1551ffc3cce310943691.png)
+
+初回ビルド時に, UnityEditor で上記のようなダイアログが表示されるので, `Update Android SDK` をクリックしてください.
+
+> **Note**
+> Unity のバージョンが更新するたびに毎回このダイアログが立ち上がります
 
 ### Deploy to Meta release channel
 

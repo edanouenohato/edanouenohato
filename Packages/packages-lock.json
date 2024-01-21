@@ -88,11 +88,11 @@
       "url": "https://npm.developer.oculus.com"
     },
     "com.sidefx.houdiniengineforunity": {
-      "version": "https://github.com/edanoue/com.sidefx.houdiniengineforunity.git",
+      "version": "https://github.com/edanoue/com.sidefx.houdiniengineforunity.git#20.0.590",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "953b7a4aa630a3815b258ec44bd4e62b11b9994f"
+      "hash": "dc4abc9db3ff0e4e7f6ca8b711594d932800864d"
     },
     "com.unity.ai.navigation": {
       "version": "2.0.0",
@@ -268,7 +268,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.xr.management": {
-      "version": "4.4.0",
+      "version": "4.4.1",
       "depth": 0,
       "source": "registry",
       "dependencies": {

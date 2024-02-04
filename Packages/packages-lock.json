@@ -46,7 +46,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "dd3f600f0c8b4c66eebfaf366f121e494d31262d"
+      "hash": "6abe4880ad05e9b7598958e80938a1edd05528e2"
     },
     "com.edanoue.scene-test": {
       "version": "https://github.com/edanoue/com.edanoue.scene-test.git",
@@ -186,7 +186,7 @@
       }
     },
     "com.unity.rendering.light-transport": {
-      "version": "1.0.0",
+      "version": "1.0.1",
       "depth": 2,
       "source": "builtin",
       "dependencies": {

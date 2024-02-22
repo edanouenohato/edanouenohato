@@ -75,10 +75,11 @@
       "hash": "0564c3961f1f57ecde7959f4029b4e2ffe894644"
     },
     "com.firelight.fmod-for-unity": {
-      "version": "file:com.firelight.fmod-for-unity",
+      "version": "https://github.com/edanoue/com.firelight.fmod-for-unity.git",
       "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "8b7371eea7b11aaa889e74a3ccc6313e94690dd4"
     },
     "com.meta.xr.sdk.core": {
       "version": "59.0.0",

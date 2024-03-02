@@ -64,7 +64,7 @@ MonoBehaviour:
   <WindowsNativeSupportEnabled>k__BackingField: 0
   <MacosNativeSupportEnabled>k__BackingField: 0
   <LinuxNativeSupportEnabled>k__BackingField: 0
-  <Il2CppLineNumberSupportEnabled>k__BackingField: 1
+  <Il2CppLineNumberSupportEnabled>k__BackingField: 0
   <RuntimeOptionsConfiguration>k__BackingField: {fileID: 0}
   <BuildTimeOptionsConfiguration>k__BackingField: {fileID: 0}
   <Debug>k__BackingField: 1

@@ -46,7 +46,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "c9af5677ffd8f6b47c335d26bb00bdb5b5b218b7"
+      "hash": "27cef87922b75cf2a1189a5411c85e9c257c7388"
     },
     "com.edanoue.scene-test": {
       "version": "https://github.com/edanoue/com.edanoue.scene-test.git",

@@ -273,11 +273,38 @@
       "dependencies": {},
       "hash": "5c1447ba9c07a724c04bf2a98a800408a4e9d8ea"
     },
+    "org.nuget.microsoft.bcl.asyncinterfaces": {
+      "version": "8.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.threading.tasks.extensions": "4.5.4"
+      },
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
+    "org.nuget.microsoft.bcl.timeprovider": {
+      "version": "8.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.microsoft.bcl.asyncinterfaces": "8.0.0"
+      },
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
     "org.nuget.system.runtime.compilerservices.unsafe": {
       "version": "6.0.0",
       "depth": 1,
       "source": "registry",
       "dependencies": {},
+      "url": "https://unitynuget-registry.azurewebsites.net"
+    },
+    "org.nuget.system.threading.tasks.extensions": {
+      "version": "4.5.4",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "4.5.3"
+      },
       "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "com.unity.modules.accessibility": {

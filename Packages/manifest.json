@@ -19,6 +19,7 @@
     "com.unity.visualeffectgraph": "16.0.5",
     "com.unity.xr.management": "4.4.0",
     "io.sentry.unity": "https://github.com/getsentry/unity.git#2.0.0",
+    "org.nuget.microsoft.bcl.timeprovider": "8.0.1",
     "com.unity.xr.oculus": "4.2.0",
     "com.unity.modules.accessibility": "1.0.0",
     "com.unity.modules.ai": "1.0.0",
@@ -59,6 +60,13 @@
       "url": "https://npm.developer.oculus.com",
       "scopes": [
         "com.meta.xr.sdk"
+      ]
+    },
+    {
+      "name": "Unity NuGet",
+      "url": "https://unitynuget-registry.azurewebsites.net",
+      "scopes": [
+        "org.nuget"
       ]
     }
   ]

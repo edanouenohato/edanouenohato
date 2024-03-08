@@ -48,7 +48,7 @@
       "dependencies": {
         "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
       },
-      "hash": "c27d242c02da65c5d77d8ec2f886c343356b9af4"
+      "hash": "e30a06a91dbf6a576da0d3f2b27ffa6fc1735143"
     },
     "com.edanoue.scene-test": {
       "version": "https://github.com/edanoue/com.edanoue.scene-test.git",

@@ -45,8 +45,10 @@
       "version": "https://github.com/edanoue/com.edanoue.rx.git",
       "depth": 0,
       "source": "git",
-      "dependencies": {},
-      "hash": "27cef87922b75cf2a1189a5411c85e9c257c7388"
+      "dependencies": {
+        "org.nuget.system.runtime.compilerservices.unsafe": "6.0.0"
+      },
+      "hash": "c27d242c02da65c5d77d8ec2f886c343356b9af4"
     },
     "com.edanoue.scene-test": {
       "version": "https://github.com/edanoue/com.edanoue.scene-test.git",
@@ -270,6 +272,13 @@
       "source": "git",
       "dependencies": {},
       "hash": "5c1447ba9c07a724c04bf2a98a800408a4e9d8ea"
+    },
+    "org.nuget.system.runtime.compilerservices.unsafe": {
+      "version": "6.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://unitynuget-registry.azurewebsites.net"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
